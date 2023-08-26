@@ -1,0 +1,38 @@
+body {
+	font-family: 'Inter';
+	padding: 6em;
+	padding-top: 3em;
+}
+h1 {
+	font-family: 'Playfair Display';
+	font-weight: 700;
+}
+nav {
+	margin-bottom: 3em;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 2em;
+}
+nav li {
+	list-style: none;
+}
+
+.uvodni-slovo {
+	display: flex;
+	flex-direction: row;
+}
+
+.uvodni-slovo .video {
+	width: 500px;
+	height: 325px;
+	background: red;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+.uvodni-slovo .text {
+	padding-left: 2em;
+	text-align: justify;
+}
