@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<nav></nav>
+
+<h1>Česká komora tlumočníků znakového jazyka</h1>
+<p>Odkaz na <a href="https://kit.svelte.dev">divnou stránku</a>.</p>
