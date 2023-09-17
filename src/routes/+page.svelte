@@ -1,24 +1,3 @@
-<script lang="ts">
-	import '@fontsource/inter';
-	import '@fontsource/playfair-display/400.css';
-	import '@fontsource/playfair-display/700.css';
-	import './style.css';
-</script>
-
-<nav>
-	<ul>
-		<li>Úvodní stránka</li>
-		<li>O Komoře</li>
-		<li>Kurzy</li>
-		<li>Členství</li>
-		<li>O tlumočení</li>
-		<li>Kontakty</li>
-		<li>Blog</li>
-	</ul>
-</nav>
-
-<h1>Česká komora tlumočníků znakového jazyka</h1>
-
 <div class="uvodni-slovo">
 	<div class="video" />
 	<div class="text">
@@ -38,3 +17,22 @@
 		<p>Komoru dělají tlumočníci pro tlumočníky.</p>
 	</div>
 </div>
+
+<style>
+	.uvodni-slovo {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.uvodni-slovo .video {
+		width: 400px;
+		height: 300px;
+		background: red;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+	.uvodni-slovo .text {
+		padding-left: 2rem;
+		text-align: justify;
+	}
+</style>

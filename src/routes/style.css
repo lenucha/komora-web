@@ -1,38 +1,39 @@
 body {
 	font-family: 'Inter';
-	padding: 6em;
-	padding-top: 3em;
+	padding: 0;
+	margin: 0;
 }
 h1 {
 	font-family: 'Playfair Display';
 	font-weight: 700;
-}
-nav {
-	margin-bottom: 3em;
+	margin-top: 0;
+	margin-bottom: 2rem;
 }
 nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	gap: 2em;
+	gap: 2rem;
 }
 nav li {
 	list-style: none;
 }
-
-.uvodni-slovo {
-	display: flex;
-	flex-direction: row;
+nav li a {
+	color: inherit;
+	text-decoration: none;
 }
 
-.uvodni-slovo .video {
-	width: 500px;
-	height: 325px;
-	background: red;
-	flex-grow: 0;
-	flex-shrink: 0;
+.zahlavi {
+	padding-top: 1.5rem;
+	padding-left: 3rem;
+	padding-right: 4rem;
+	padding-bottom: 1rem;
+	margin-bottom: 3rem;
+	color: white;
+	background: #216383;
 }
-.uvodni-slovo .text {
-	padding-left: 2em;
-	text-align: justify;
+
+main {
+	padding-left: 6rem;
+	padding-right: 6rem;
 }
